@@ -1,3 +1,4 @@
+package main.java.myproject;
 
 import java.lang.*;
 import java.util.*;

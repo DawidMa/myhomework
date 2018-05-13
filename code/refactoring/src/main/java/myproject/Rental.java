@@ -1,3 +1,7 @@
+package main.java.myproject;
+
+import main.java.myproject.Movie;
+
 class Rental {
     private Movie movie;
     private int daysRented;
