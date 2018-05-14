@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b411769b-ec53-43a8-9671-ba6021654101" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myproject/MovieTest.java" afterPath="$PROJECT_DIR$/src/test/java/myproject/MovieTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myproject/RentalTest.java" afterPath="$PROJECT_DIR$/src/test/java/myproject/RentalTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MovieTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/myproject/MovieTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -98,12 +98,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RentalTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RentalTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/myproject/RentalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,7 +157,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/myproject/RentalClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/myproject/RentalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/myproject/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/myproject/Program.java" />
         <option value="$PROJECT_DIR$/src/main/java/myproject/Customer.java" />
@@ -159,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/test/java/myproject/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/myproject/ProgramTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/myproject/MovieTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/myproject/RentalTest.java" />
       </list>
     </option>
   </component>
@@ -256,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest">
+  <component name="RunManager" selected="JUnit.test.java.myproject in refactoring">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -408,8 +414,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MovieTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.test.java.myproject in refactoring" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.test.java.myproject in refactoring" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MovieTest" />
         <item index="2" class="java.lang.String" itemvalue="Application.Program" />
       </list>
     </recent_temporary>
@@ -433,7 +439,7 @@
       <option name="presentableId" value="Default" />
       <updated>1526244899892</updated>
       <workItem from="1526244901952" duration="1686000" />
-      <workItem from="1526279146079" duration="447000" />
+      <workItem from="1526279146079" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="added new tests">
       <created>1526279406920</created>
@@ -442,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526279406920</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new tests for Movie">
+      <created>1526279607794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526279607794</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -452,13 +465,15 @@
     <history-entry file="test_java_myproject_in_refactoring - 2018.05.14 at 08h 29m 43s.xml">
       <configuration name="test.java.myproject in refactoring" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="test_java_myproject_in_refactoring - 2018.05.14 at 08h 35m 51s.xml">
+      <configuration name="test.java.myproject in refactoring" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2133000" />
+    <option name="totallyTimeSpent" value="2294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="820" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -503,7 +518,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new tests" />
+    <MESSAGE value="new tests for Movie" />
+    <option name="LAST_COMMIT_MESSAGE" value="new tests for Movie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -574,7 +590,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -600,19 +622,6 @@
           <folding>
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/Rental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,14 +656,6 @@
             <element signature="e#255#256#0" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/myproject/RentalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,6 +695,33 @@
             <element signature="e#314#315#0" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myproject/Rental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myproject/RentalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
           </folding>
         </state>
       </provider>
