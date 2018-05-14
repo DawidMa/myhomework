@@ -1,6 +1,6 @@
 package main.java.myproject;
 
-class Rental {
+public class Rental {
 
     private Movie movie;
     private int daysRented;
@@ -13,7 +13,7 @@ class Rental {
     public int getDaysRented() {
         return daysRented;
     }
-    
+
     public Movie getMovie() {
         return movie;
     }
